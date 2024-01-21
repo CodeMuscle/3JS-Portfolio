@@ -5,13 +5,14 @@ import { WorkGridItem } from '../components/grid-item'
 
 import thumbMetricsHub from '../public/images/works/MetricsHub.png'
 import thumbTechCube from '../public/images/works/techcube.png'
-import thumbPinIt from '../public/images/works/pinit.png'
+import thumbMemorise from '../public/images/works/memorise.png'
 import thumbMintverse from '../public/images/works/mintverse.png'
 import thumbSpark from '../public/images/works/Spark.png'
 import thumbNeytt from '../public/images/works/neytt.png'
 import thumbSmartshift from '../public/images/works/Smartshift.png'
 import thumbBrillio from '../public/images/works/brillio.png'
 import thumbPichu2 from '../public/images/works/EHR.png'
+// import thumbPinIt from '../public/images/works/pinit.png'
 // import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
 // import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
 
@@ -23,6 +24,23 @@ const Works = () => (
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+
+        <Section delay={0.1}>
+          <WorkGridItem
+            id="memorise"
+            title="Memorise"
+            thumbnail={thumbMemorise}
+          >
+            Next 13 - Clerk
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.1}>
+          <WorkGridItem id="mintverse" thumbnail={thumbMintverse} title="Mintverse">
+            React - Web3
+          </WorkGridItem>
+        </Section>
+        
         <Section>
           <WorkGridItem
             id="metricshub"
@@ -32,6 +50,7 @@ const Works = () => (
             React - MUI5
           </WorkGridItem>
         </Section>
+
         <Section>
           <WorkGridItem
             id="techcube"
@@ -42,7 +61,7 @@ const Works = () => (
           </WorkGridItem>
         </Section>
 
-        <Section delay={0.1}>
+        {/* <Section delay={0.1}>
           <WorkGridItem
             id="pinit"
             title="PinIt"
@@ -50,12 +69,8 @@ const Works = () => (
           >
             React - OAuth
           </WorkGridItem>
-        </Section>
-        <Section delay={0.1}>
-          <WorkGridItem id="mintverse" thumbnail={thumbMintverse} title="Mintverse">
-            React - Web3
-          </WorkGridItem>
-        </Section>
+        </Section> */}
+
       </SimpleGrid>
 
       <Section delay={0.2}>

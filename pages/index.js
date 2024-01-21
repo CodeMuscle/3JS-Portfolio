@@ -40,7 +40,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        👋🏻 Hello, I&apos;m a front-end developer based in India!
+        👋🏻 Hello, I&apos;m a front-end developer based out of India!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -48,7 +48,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Ganesh Govind
           </Heading>
-          <p>Web Developer (React | Node)</p>
+          <p>Web Developer (React | NextJS | CMS)</p>
         </Box>
         <Box
           flexShrink={0}
@@ -90,17 +90,17 @@ const Home = () => (
           {/* <Link as={NextLink} href="/works/dashboard" passHref scroll={false}>
           Admin Dashboard
           </Link> */}
-          I share knowledge by publishing content on my Instagram page
-          &quot;
-          <Link
-            as={NextLink}
-            href="https://www.instagram.com/motiontodev/"
-            passHref
-            target="_blank"
-          >
-            MotionToDev
-          </Link>
-          &quot;
+          I share knowledge by publishing content on my&nbsp;
+            <Link
+              as={NextLink}
+              href="https://www.linkedin.com/in/ganeshgovind21/"
+              passHref
+              target="_blank"
+            >
+              LinkedIn
+            </Link>
+            &nbsp;profile.
+
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -132,8 +132,12 @@ const Home = () => (
           Web Developer - Mellow Designs
         </BioSection>
         <BioSection>
-          <BioYear>Present</BioYear>
+          <BioYear>2023</BioYear>
           Web Developer - Workskills (Founding Team)
+        </BioSection>
+        <BioSection>
+          <BioYear>Present</BioYear>
+          Growth Engineer - Lifesight
         </BioSection>
       </Section>
 
@@ -142,7 +146,7 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Photography, Music and Cooking
+          Finance, Music and Cooking
           {/* <Link href="https://illust.odoruinu.net/" target="_blank">
             Drawing
           </Link>
@@ -160,17 +164,6 @@ const Home = () => (
         </Heading>
         <List mb={6}>
           <ListItem>
-            <Link href="https://github.com/b1urry.7ace" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="purple"
-                leftIcon={<IoLogoInstagram />}
-              >
-                Instagram
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
             <Link
               href="https://www.linkedin.com/in/ganeshgovind21/"
               target="_blank"
@@ -185,13 +178,24 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://medium.com/@ganeshgovind11" target="_blank">
+            <Link href="https://github.com/b1urry.7ace" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="purple"
+                leftIcon={<IoLogoInstagram />}
+              >
+                Instagram
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://hashnode.com/@CodeMuscle" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="purple"
                 leftIcon={<IoLogoMedium />}
               >
-                Medium
+                Hashnode
               </Button>
             </Link>
           </ListItem>

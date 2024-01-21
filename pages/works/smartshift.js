@@ -40,7 +40,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://smartshift.com/">
+          <Link href="https://shorturl.at/juyC0">
            smartShift<ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

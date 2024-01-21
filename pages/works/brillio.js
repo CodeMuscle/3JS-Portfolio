@@ -33,7 +33,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://www.brillio.com/">
+          <Link href="https://shorturl.at/fimGX">
             Brillio
           </Link>
         </ListItem>

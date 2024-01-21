@@ -29,8 +29,8 @@ const Work = () => (
         <ListItem>
           <Meta>Website</Meta>
           <span>
-          <Link href="https://neytt.com/">
-           https://neytt.com<ExternalLinkIcon mx="2px" />
+          <Link href="https://shorturl.at/ajns6">
+           https://www.neytt.com<ExternalLinkIcon mx="2px" />
             </Link>
           </span>
         </ListItem>

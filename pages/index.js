@@ -125,7 +125,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
-          Bachelors in Computer Science at SRM, Trichy
+          Bachelors in Computer Science, SRM
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
@@ -178,7 +178,7 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://github.com/b1urry.7ace" target="_blank">
+            <Link href="https://instagram.com/ganeshxgovind" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="purple"
